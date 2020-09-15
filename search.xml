@@ -140,16 +140,10 @@ if (workbox) {
   </entry>
   <entry>
     <title>تماس با من</title>
-    <url>/contact-me/index.html</url>
+    <url>/contact/index.html</url>
     <content><![CDATA[<h1 id="اطلاعات-تماس"><a href="#اطلاعات-تماس" class="headerlink" title="اطلاعات تماس :"></a>اطلاعات تماس :</h1><p>برای تماس با من می توانید از افزونه چت انلاین که در صفحه است استفاده کنید و یا با ایمیل :</p>
 <p><code>mehot1 [at] gmail.com</code> </p>
 <p>تماس بگیرید.</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>tags</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[<p>صفحه برچسب ها</p>
 ]]></content>
   </entry>
   <entry>
@@ -159,6 +153,12 @@ if (workbox) {
 <p>من به صورت پروژه ای ،پارت تایم و همینطور تدریس تمایل به همکاری دارم . </p>
 <p>در صورتی که تمایل دارید با هم همکاری کنیم ،با من تماس بگیرید.</p>
 <p>متشکرم</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[<p>صفحه برچسب ها</p>
 ]]></content>
   </entry>
   <entry>
