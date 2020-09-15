@@ -1,0 +1,9 @@
+{%- if theme.wasmApp.enable %}
+{%- set wasmApp_uri = theme.wasmApp.url  %}
+<script{{ pjax }}>
+if (document.querySelectorAll('.app-section').length) {
+  NexT.utils.getScript('{{ url_for(wasmApp_uri) }}', () => {
+  });
+}
+</script>
+{%- endif %}

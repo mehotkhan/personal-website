@@ -1,0 +1,16 @@
+{%- set hyvor_uri = '//talk.hyvor.com/web-api/embed' %}
+
+<script>
+  if (document.getElementById('hyvor-comments')) {
+    NexT.utils.loadComments('#hyvor-talk-view', () => {
+        HYVOR_TALK_WEBSITE = '{{ theme.hyvor.site_id  }}',
+          HYVOR_TALK_CONFIG = {
+                url: '{{ page.permalink }}',
+                id: '{{ page.path }}',
+              }
+      NexT.utils.getScript('{{ url_for(hyvor_uri) }}', () => {
+      }, window.hyvor);
+    });
+  }
+</script>
+

@@ -1,0 +1,239 @@
+sidebar:
+  # Sidebar Position.
+  position: right
+  #position: right
+
+  # Manual define the sidebar width. If commented, will be default for:
+  # Muse | Mist: 320
+  # Pisces | Gemini: 240
+  #width: 300
+
+  # Sidebar Display (only for Muse | Mist), available values:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically.
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  totally remove sidebar including sidebar toggle.
+  display: hide
+
+  # Sidebar padding in pixels.
+  padding: 18
+  # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+  offset: 12
+  # Enable sidebar on narrow view (only for Muse | Mist).
+  onmobile: true
+
+pjax: true
+
+pace:
+  enable: false
+  # Themes list:
+  # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
+  # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
+  theme: flat-top
+  
+cache:
+  enable: true
+
+minify: true
+
+text_align:
+  # Available values: start | end | left | right | center | justify | justify-all | match-parent
+  desktop: justify
+  mobile: justify
+####
+mobile_layout_economy: true
+####
+# Schemes
+# scheme: Muse
+# scheme: Mist
+# scheme: Pisces
+scheme: Gemini
+####
+darkmode: false
+####
+menu:
+  home: / || fa fa-home
+  blog: /blogs/ || fa fa-blog
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  about: /about/ || fa fa-tree
+  # install: /# || fa fa-mobile
+
+####
+back2top:
+  enable: true
+  # Back to top in sidebar.
+  sidebar: false
+  # Scroll percent label in b2t button.
+  scrollpercent: false
+
+# Reading progress bar
+reading_progress:
+  enable: true
+  # Available values: top | bottom
+  position: top
+  color: "#37c6c0"
+  height: 3px
+
+# Bookmark Support
+bookmark:
+  enable: false
+  # Customize the color of the bookmark.
+  color: "#222"
+  # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
+  # If manual, only save it by clicking the bookmark-icon.
+  save: auto
+###
+
+github_banner:
+  enable: true
+  permalink: https://github.com/konar-studio
+  title: Follow me on GitHub
+
+custom_file_path:
+    style: source/_data/styles.styl
+    variable: source/_data/variables.styl
+    # head: source/_data/head.njk
+
+# ============================================================= #
+# ====================== Search Services ====================== #
+# ============================================================= #
+
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+
+favicon:
+  small: /assets/images/favicon-16x16.png
+  medium: /assets/images/favicon-32x32.png
+  apple_touch_icon: /assets/images/apple-icon-180x180.png
+
+social:
+  GitHub: https://github.com/konar-studio || fab fa-github
+  # E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  # Twitter: https://twitter.com/yourname || fab fa-twitter
+  YouTube: https://www.youtube.com/channel/UCsWKGcdAup7dse0Gyk5_SxA || fab fa-youtube
+  Linkedin: https://www.linkedin.com/company/konar-studio/ || fab fa-linkedin
+
+
+
+site_state: false
+
+avatar:
+  url: /assets/images/favicon-32x32.png
+
+font:
+  # Use custom fonts families or not.
+  # Depended options: `external` and `family`.
+  enable: true
+
+  # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
+  host:
+
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)
+
+  # Global font settings used for all elements inside <body>.
+  global:
+    external: true
+    family: Vazir-Web
+    size: 1
+
+  # Font settings for site title (.site-title).
+  title:
+    external: true
+    family: Vazir-Web
+    size:
+
+  # Font settings for headlines (<h1> to <h6>).
+  headings:
+    external: true
+    family: Vazir-Web
+    size: 
+
+  # Font settings for posts (.post-body).
+  posts:
+    external: true
+    family: Vazir-Web
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family: Vazir-Code
+
+# Mermaid tag
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: default
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  # since: 2020
+
+  # Icon between year and copyright info.
+  icon:
+    # Icon name in Font Awesome. See: https://fontawesome.com/icons
+    name: fa fa-heart
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#ff0000"
+
+  # If not defined, `author` from Hexo `_config.yml` will be used.
+  copyright: 'کپی رایت :)'
+
+  # Powered by Hexo & NexT
+  powered: true
+
+android_chrome_color: "#3498c3"
+
+
+# Subscribe through Telegram Channel, Twitter, etc.
+# Usage: `Key: permalink || icon` (Font Awesome)
+# follow_me:
+#   Twitter: https://twitter.com/username || fab fa-twitter
+#   Telegram: https://t.me/channel_name || fab fa-telegram
+#   RSS: /atom.xml || fa fa-rss
+
+# TagCloud settings for tags page.
+tagcloud:
+  min: 12 # Minimun font size in px
+  max: 30 # Maxium font size in px
+  amount: 200 # Total amount of tags
+  orderby: name # Order of tags
+  order: 1 # Sort order
+
+hyvor:
+  enable: true
+  site_id: 1964
+  comment_count: true
+
+vendors:
+  # Available values: local, jsdelivr, unpkg
+  internal: local
+
+  mermaid: lib/mermaid/mermaid.min.js
+  pjax : lib/pjax/pjax.min.js
+
+  # pace:  lib/pace/pace.min.js
+  # pace_css: lib/pace/pace.min.js
+
+
+
+# Show multilingual switcher in footer.
+language_switcher: false
+
+# # Google Analytics
+# google_analytics:
+#   tracking_id: UA-175886923-1
+#   # By default, NexT will load an external gtag.js script on your site.
+#   # If you only need the pageview feature, set the following option to true to get a better performance.
+#   only_pageview: false
+
+# post_edit:
+#   enable: true
+#   url: https://github.com/konar-studio/Front-Page/blob/master/source/
