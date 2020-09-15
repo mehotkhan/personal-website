@@ -27,14 +27,6 @@ blockquote{
 .menu-item-install{
     display: none;    
 }
-a.install-trigger{
-    background: #3498c3;
-    color: white;
-    border-radius: 2px;
-    i{
-        color: white!important;
-    }
-}
 .fa-date{
     display: none!important;    
 }
@@ -42,6 +34,15 @@ a.install-trigger{
     display: inline-block!important;    
 }
 html[dir*="rtl"] {
+    .main-menu .menu-item-active::after{
+        left: 15px;
+        right: auto;
+    }
+    .sidebar-nav{
+        padding-right: 0;
+        padding-left: initial
+        direction: ltr;;
+    }
     .menu .menu-item a, .menu .menu-item span.exturl{
         text-align: right    
     }

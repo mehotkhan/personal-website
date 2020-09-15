@@ -8,7 +8,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
   // Update UI notify the user they can install the PWA
-  document.querySelector('.menu-item-install').style.display = 'inline-block';
+  document.querySelector('.menu-item-install').style.display = 'block';
   document.querySelector('.install-trigger').style.display = 'block';
 });
 

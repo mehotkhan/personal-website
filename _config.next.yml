@@ -1,6 +1,6 @@
 sidebar:
   # Sidebar Position.
-  position: right
+  position: left
   #position: right
 
   # Manual define the sidebar width. If commented, will be default for:
@@ -13,7 +13,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: hide
+  display: always
 
   # Sidebar padding in pixels.
   padding: 18
@@ -54,10 +54,10 @@ darkmode: false
 menu:
   home: / || fa fa-home
   blog: /blogs/ || fa fa-blog
-  categories: /categories/ || fa fa-th
+  about: /about/ || fa fa-file-code
+  contact: /contact/ || fa fa-id-card
   tags: /tags/ || fa fa-tags
-  about: /about/ || fa fa-tree
-  # install: /# || fa fa-mobile
+  cooperation-offer: /cooperation-offer/ || fa fa-coffee
 
 ####
 back2top:
@@ -87,7 +87,7 @@ bookmark:
 
 github_banner:
   enable: true
-  permalink: https://github.com/konar-studio
+  permalink: https://github.com/mehotkhan
   title: Follow me on GitHub
 
 custom_file_path:
@@ -110,15 +110,13 @@ favicon:
   apple_touch_icon: /assets/images/apple-icon-180x180.png
 
 social:
-  GitHub: https://github.com/konar-studio || fab fa-github
-  # E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  # Twitter: https://twitter.com/yourname || fab fa-twitter
-  YouTube: https://www.youtube.com/channel/UCsWKGcdAup7dse0Gyk5_SxA || fab fa-youtube
-  Linkedin: https://www.linkedin.com/company/konar-studio/ || fab fa-linkedin
+  GitHub: https://github.com/mehotkhan || fab fa-github
+  E-Mail: mailto:mehot1@gmail.com || fa fa-envelope
+  Linkedin: https://www.linkedin.com/in/ali-zemani/ || fab fa-linkedin
 
 
 
-site_state: false
+site_state: true
 
 avatar:
   url: /assets/images/favicon-32x32.png
@@ -234,6 +232,6 @@ language_switcher: false
 #   # If you only need the pageview feature, set the following option to true to get a better performance.
 #   only_pageview: false
 
-# post_edit:
-#   enable: true
-#   url: https://github.com/konar-studio/Front-Page/blob/master/source/
+post_edit:
+  enable: true
+  url: https://github.com/mehotkhan/personal-website/blob/master/source/
