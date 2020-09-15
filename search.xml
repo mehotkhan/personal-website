@@ -147,18 +147,18 @@ if (workbox) {
 ]]></content>
   </entry>
   <entry>
+    <title>tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[<p>صفحه برچسب ها</p>
+]]></content>
+  </entry>
+  <entry>
     <title>پیشنهاد همکاری</title>
     <url>/cooperation-offer/index.html</url>
     <content><![CDATA[<h1 id="پیشنهاد-همکاری‌"><a href="#پیشنهاد-همکاری‌" class="headerlink" title="پیشنهاد همکاری‌:"></a>پیشنهاد همکاری‌:</h1><p>در صفحه <a href="/about">درباره من</a> ،رزومه من قابل دریافت است .</p>
 <p>من به صورت پروژه ای ،پارت تایم و همینطور تدریس تمایل به همکاری دارم . </p>
 <p>در صورتی که تمایل دارید با هم همکاری کنیم ،با من تماس بگیرید.</p>
 <p>متشکرم</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>tags</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[<p>صفحه برچسب ها</p>
 ]]></content>
   </entry>
   <entry>
