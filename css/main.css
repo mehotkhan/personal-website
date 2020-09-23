@@ -3412,7 +3412,7 @@ pre.mermaid .label {
 }
 .headband {
   background: #3199c4;
-  height: 0px !important;
+  height: 3px;
 }
 .site-brand-container {
   background: rgba(34,34,34,0) !important;
