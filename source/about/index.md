@@ -12,4 +12,4 @@ date: 2019-10-30 08:13:36
 
 همچنین برای تماس با من 
 
-دانلود رزومه :‌ [Ali_Zemani_Resume](alizemani.ir/Ali_Zemani_Resume.pdf)
+دانلود رزومه :‌ [Ali_Zemani_Resume](https://alizemani.ir/Ali_Zemani_Resume.pdf)
