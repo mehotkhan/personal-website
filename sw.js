@@ -19,4 +19,4 @@ registerRoute(/^https:\/\/fonts\.gstatic\.com/, new CacheFirst({"cacheName":"goo
 
 
 
-
+self.__WB_DISABLE_DEV_LOGS = true;

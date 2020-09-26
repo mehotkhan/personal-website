@@ -3272,6 +3272,13 @@ html[dir*="rtl"] .footer-inner {
   display: none;
 }
 @media (max-width: 767px) {
+  .header-inner {
+    margin-bottom: 16px;
+    padding: 0 !important;
+  }
+  .site-brand-container {
+    box-shadow: none;
+  }
   div.install-trigger {
     background: none;
   }
@@ -3421,4 +3428,12 @@ pre.mermaid .label {
 .site-subtitle {
   color: #555 !important;
   font-size: 0.9125em !important;
+}
+.site-nav-toggle .toggle,
+.site-nav-right .toggle {
+  color: #555;
+}
+.site-nav-toggle .toggle .toggle-line,
+.site-nav-right .toggle .toggle-line {
+  background: #555;
 }

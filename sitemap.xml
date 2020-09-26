@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://alizemani.ir/about/</loc>
+    <loc>https://alizemani.ir/blogs/intro/</loc>
     
-    <lastmod>2020-09-23</lastmod>
+    <lastmod>2020-09-26</lastmod>
     
   </url>
   
   <url>
     <loc>https://alizemani.ir/blogs/Bandersnatch-Interactive-Player/</loc>
     
-    <lastmod>2020-09-14</lastmod>
+    <lastmod>2020-09-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://alizemani.ir/blogs/somePost/</loc>
+    
+    <lastmod>2020-09-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://alizemani.ir/about/</loc>
+    
+    <lastmod>2020-09-23</lastmod>
     
   </url>
   
@@ -67,7 +81,7 @@
 
   <url>
     <loc>https://alizemani.ir/</loc>
-    <lastmod>2020-09-23</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,14 +89,14 @@
   
   <url>
     <loc>https://alizemani.ir/tags/opensource/</loc>
-    <lastmod>2020-09-23</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://alizemani.ir/tags/%D8%B3%D9%84%D8%A7%D9%85-%D8%AF%D9%86%DB%8C%D8%A7/</loc>
-    <lastmod>2020-09-23</lastmod>
+    <lastmod>2020-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
