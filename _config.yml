@@ -128,9 +128,8 @@ pwa:
       display: standalone
   # Generate sw.js
   serviceWorker:
-    # cdn: https://cdn.jsdelivr.net/npm/workbox-sw@5/build/workbox-sw.min.js
-    # See workbox-build's `generateSW()` API
-    # Here are some default configuration, see `./default.yaml`
+    cdn: https://cdn.jsdelivr.net/npm/workbox-sw@5/build/workbox-sw.min.js
+    disableDevLogs: true
     options:
       swDest: /sw.js
 
@@ -173,3 +172,9 @@ symbols_count_time:
   wpm: 275
   total_time: false
   total_symbols: false
+
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  pagination_dir: page
