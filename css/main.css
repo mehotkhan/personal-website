@@ -1798,41 +1798,17 @@ pre code {
 .back-to-top {
   font-size: 12px;
 }
-.back-to-top span {
-  display: none;
-}
 .back-to-top {
-  bottom: -100px;
-  box-sizing: border-box;
-  color: #fff;
-  padding: 0 6px;
-  transition: bottom 0.2s ease-in-out;
-  background: #222;
-  cursor: pointer;
-  opacity: 0.6;
-  position: fixed;
-  z-index: 1300;
-  right: 30px;
-  width: 24px;
-}
-@media (max-width: 991px) {
-  .back-to-top {
-    right: 20px;
-  }
-}
-.back-to-top:hover {
-  opacity: 0.8;
-}
-@media (max-width: 991px) {
-  .back-to-top {
-    opacity: 0.8;
-  }
-}
-.back-to-top:hover {
-  color: #fc6423;
+  margin: 8px -10px -20px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 .back-to-top.back-to-top-on {
-  bottom: 30px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.back-to-top.back-to-top-on:hover {
+  opacity: 0.8;
 }
 #noscript-warning {
   background-color: #f55;
@@ -2146,23 +2122,6 @@ pre code {
   font-weight: normal;
   margin: initial;
   overflow-wrap: break-word;
-}
-.posts-expand .post-title .post-edit-link {
-  border-bottom: none;
-  color: #bbb;
-  display: inline-block;
-  float: right;
-  font-size: 1.25em;
-  margin-left: -1.2em;
-  transition: color 0.2s ease-in;
-}
-@media (max-width: 567px) {
-  .posts-expand .post-title .post-edit-link {
-    margin-left: initial;
-  }
-}
-.posts-expand .post-title .post-edit-link:hover {
-  color: #fc6423;
 }
 .posts-expand .post-title-link {
   border-bottom: none;
@@ -2938,6 +2897,13 @@ mark.search-keyword {
   background: var(--body-bg-color);
   border-radius: 4px;
 }
+.back-to-top {
+  background: var(--body-bg-color);
+  margin: -4px -10px -18px;
+}
+.back-to-top.back-to-top-on {
+  margin-top: 16px;
+}
 .main-inner {
   background: initial;
   box-shadow: initial;
@@ -3272,6 +3238,10 @@ html[dir*="rtl"] .footer-inner {
   display: none;
 }
 @media (max-width: 767px) {
+  .site-brand-container {
+    background: #fff !important;
+    border-top: 3px solid #3199c4 !important;
+  }
   .header-inner {
     margin-bottom: 16px;
     padding: 0 !important;
@@ -3423,7 +3393,6 @@ pre.mermaid .label {
 }
 .site-brand-container {
   background: #fff !important;
-  border-top: 3px solid #3199c4 !important;
 }
 .site-subtitle {
   color: #555 !important;
