@@ -54,18 +54,19 @@ darkmode: false
 menu:
   home: / || fa fa-home
   blog: /blogs/ || fa fa-blog
+  web-assistant: /web-assistant/ || fa fa-toolbox
+  cooperation-offer: /cooperation-offer/ || fa fa-coffee
+  tags: /tags/ || fa fa-tags
   about: /about/ || fa fa-file-code
   contact: /contact/ || fa fa-id-card
-  tags: /tags/ || fa fa-tags
-  cooperation-offer: /cooperation-offer/ || fa fa-coffee
 
 ####
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
@@ -227,12 +228,9 @@ vendors:
 language_switcher: false
 
 # # Google Analytics
-# google_analytics:
-#   tracking_id: UA-175886923-1
-#   # By default, NexT will load an external gtag.js script on your site.
-#   # If you only need the pageview feature, set the following option to true to get a better performance.
-#   only_pageview: false
+google_analytics:
+  tracking_id: UA-149591828-1
+  # By default, NexT will load an external gtag.js script on your site.
+  # If you only need the pageview feature, set the following option to true to get a better performance.
+  only_pageview: false
 
-post_edit:
-  enable: true
-  url: https://github.com/mehotkhan/personal-website/blob/master/source/
