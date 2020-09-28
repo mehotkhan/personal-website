@@ -3422,8 +3422,8 @@ pre.mermaid .label {
   height: 3px;
 }
 .site-brand-container {
-  background: rgba(34,34,34,0) !important;
-  border-bottom: 1px solid #3199c4 !important;
+  background: #fff !important;
+  border-top: 3px solid #3199c4 !important;
 }
 .site-subtitle {
   color: #555 !important;
