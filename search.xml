@@ -52,7 +52,7 @@
   <entry>
     <title></title>
     <url>/manifest.json</url>
-    <content><![CDATA[{"name":"علی زِمانی","start_url":"/index.html?source=pwa","short_name":"علی زِمانی","lang":"fa","description":"برنامه نویس و توسعه دهنده وب آزاد","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/assets/images/android-chrome-512x512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"theme_color":"#3498c3","background_color":"#3498c3","display":"standalone"}]]></content>
+    <content><![CDATA[{"name":"علی زِمانی","start_url":"/","short_name":"علی زِمانی","lang":"fa","description":"برنامه نویس و توسعه دهنده وب آزاد","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/assets/images/android-chrome-512x512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"theme_color":"#3498c3","background_color":"#3498c3","display":"standalone"}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -116,22 +116,16 @@ workbox.googleAnalytics.initialize();]]></content>
 ]]></content>
   </entry>
   <entry>
-    <title>تماس با من</title>
-    <url>/contact/index.html</url>
-    <content><![CDATA[<p>برای تماس با من می توانید از افزونه چت انلاین که در صفحه است استفاده کنید و یا با ایمیل :</p>
-<p><code>mehot1 [at] gmail.com</code> </p>
-<p>تماس بگیرید.</p>
-]]></content>
-  </entry>
-  <entry>
     <title>categories</title>
     <url>/categories/index.html</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>tags</title>
-    <url>/tags/index.html</url>
-    <content><![CDATA[<p>صفحه برچسب ها</p>
+    <title>تماس با من</title>
+    <url>/contact/index.html</url>
+    <content><![CDATA[<p>برای تماس با من می توانید از افزونه چت انلاین که در صفحه است استفاده کنید و یا با ایمیل :</p>
+<p><code>mehot1 [at] gmail.com</code> </p>
+<p>تماس بگیرید.</p>
 ]]></content>
   </entry>
   <entry>
@@ -141,6 +135,12 @@ workbox.googleAnalytics.initialize();]]></content>
 <p>من به صورت پروژه ای ،پارت تایم و همینطور تدریس تمایل به همکاری دارم . </p>
 <p>در صورتی که تمایل دارید با هم همکاری کنیم ،با من تماس بگیرید.</p>
 <p>متشکرم</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>tags</title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[<p>صفحه برچسب ها</p>
 ]]></content>
   </entry>
   <entry>
