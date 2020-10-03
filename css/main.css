@@ -3174,11 +3174,6 @@ html[dir*="rtl"] .menu-item .fas {
   margin-left: 8px;
   margin-right: 0;
 }
-html[dir*="rtl"] .posts-expand.index .post-title,
-html[dir*="rtl"] .posts-expand.index .post-meta,
-html[dir*="rtl"] .post-toc ol {
-  text-align: right;
-}
 html[dir*="rtl"] .sidebar-nav li.sidebar-nav-overview {
   margin-left: 0;
   margin-right: 10px;
