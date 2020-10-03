@@ -108,11 +108,29 @@ workbox.googleAnalytics.initialize();]]></content>
   <entry>
     <title>درباره من</title>
     <url>/about/index.html</url>
-    <content><![CDATA[<p>من برنامه نویس و توسعه دهنده وب هستم.</p>
-<p>با رنج وسیعی از تکنولوژی هایی که امروزه در وب کاربرد دارند کار کردم و آشنایی دارم .</p>
-<p>اطلاعات دقیق تر را در فایل رزومه قرار داده ام .</p>
-<p>همچنین برای تماس با من </p>
-<p>دانلود رزومه :‌ <a href="https://alizemani.ir/Ali_Zemani_Resume.pdf">Ali_Zemani_Resume</a></p>
+    <content><![CDATA[<div dir="ltr">
+
+<h1 id="OBJECTIVE"><a href="#OBJECTIVE" class="headerlink" title="OBJECTIVE"></a>OBJECTIVE</h1><p>Ali is an accomplished individual with a strong back-ground in software systems, software management, professional programming and software developing. </p>
+<p>Ali has contributed in about 100 software projects during thelast 10 years and he is continually evaluating and upgrading his skills so that he stays at the cutting edge of web development. Ali is a quick learner who can generate new ideas and can communicate clearly and effectively. He has a great interest in open source technologies and dedicates his leisure time to study and research in this field.Currently looking for an opportunity to join a dynamic and ambitious company that offers a unique work environment within which its staff can thrive and grow.</p>
+<h1 id="TECHNOLOGY-SKILLS"><a href="#TECHNOLOGY-SKILLS" class="headerlink" title="TECHNOLOGY SKILLS"></a>TECHNOLOGY SKILLS</h1><p> <strong>Programming Languages</strong>: Python, JavaScript, Golang, PHP</p>
+<p><strong>Operations Systems</strong>: Experience working in Unix/Linux server managment ,De-<br>bian ,Centos ,Arch ,Ubuntu</p>
+<p><strong>Back-end Technologies</strong>: Django (v1.11,v2) , DRF (django rest fremwork) ,Django<br>Channel ,Flask microframwork ,Celery, ,express.js ,loopback(v3) ,GraphQL</p>
+<p><strong>Front-End Technologies</strong>: React , vue.js ,hexo.js ,Bootstrap (v3,v4) , Material UI<br>, redux enverioment , webpack ,SASS, SUSY, Jinja Template Engine.</p>
+<p><strong>Mobile App Technologies</strong>: react-native (android only) , PWA Architecture</p>
+<p><strong>Dev-ops Technologies</strong>: microservise architecture ,messaging platform , cluster<br>managment platform , docker , k8s ,Nginx ,kafka ,EMQ (Mqtt broker) ,RabbitMQ</p>
+<p><strong>Team Managements Technologies</strong>: Jira Platform , Git , Trello , Postman<br>CMS Technologies: Drupal theme and plugins (v7),wordpress theme and plugins</p>
+<p><strong>Database Technologies</strong>: Mongodb , Postgresql ,Key-Value (redis), Neo4j</p>
+<p><strong>Social Data Analysis</strong>: Experience working in Twiter Api , Telegram APi , Insta-<br>gram Api</p>
+<h1 id="EXPERIENCE"><a href="#EXPERIENCE" class="headerlink" title="EXPERIENCE"></a><strong>EXPERIENCE</strong></h1><ol>
+<li><strong>Full Stack Developer</strong><br> Jun 2019 , September 2019<br>AriaTeck , Tehran, Iran<br>• Designed and developed React,material System Pannel,<br>• Designed and developed Loopback Backend<br>• Designed and developed Express.js Backend</li>
+<li><strong>Backend Developer</strong><br>Apanaj , Tehran, Iran<br>• Developed Python Game Engine,<br>• Designed and developed Django Rest System<br>Jun 2018 , Dec 2018</li>
+<li><strong>Full-Stack Developer</strong><br> Jun 2017 , Jun 2018<br>NGN - New Genaration Network Enginearing Co , Tehran, Iran<br>• Developed Laravel software systems,<br>• Designed and developed EMQ(MQTT)/React Messaging System<br>• Designed and developed React Native Android Applications<br>• Designed and developed Gitlab + Docker Continuous Deployment Systems<br>• Designed Wordpress, Drupal, Bootstrap Theme</li>
+<li><strong>Backend Developer</strong><br> Oct 2016 , Oct 2017<br>IRANHRC , Tehran, Iran<br>• Designed and developed Wordpress,bootstrap News Portal,<br>• Designed and developed python Location query<br>• Designed and developed Django Rest System</li>
+<li><strong>Backend Developer</strong><br> Sep 2016 - May 2017<br>Hami Andishe, Tehran, Iran<br>• Designed and Developed DRF software systems, Part of TSP Developer Teams.<br>• Data Analysis ,Part of CSP Developer Teams</li>
+<li><strong>Full-Stack Developer</strong><br> May 2016 - Oct 2017<br>Arman Tajarat, Tehran, Iran<br>• Designed and developed FLask Rest, EMQ (MQTT), Ionic application and<br>systems for Iot stack</li>
+<li><strong>Front End Developer</strong><br>Tadbir Pasarghad , Tehran, Iran<br>• Designed Wordpress, Drupal, Bootstrap Theme<br>• Designed Drupal/Angular Websites<br>Sep 2014 - Jun 2015</li>
+</ol>
+</div>
 ]]></content>
   </entry>
   <entry>
