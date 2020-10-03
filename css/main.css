@@ -6,8 +6,8 @@
   --blockquote-color: #666;
   --link-color: #555;
   --link-hover-color: #222;
-  --brand-color: #3498c3;
-  --brand-hover-color: #3498c3;
+  --brand-color: #fff;
+  --brand-hover-color: #fff;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #f5f5f5;
@@ -3336,9 +3336,6 @@ pre.mermaid .label {
   max-width: 140px;
   border: none;
 }
-.header-inner {
-  padding: 5px 0;
-}
 .github-corner svg {
   width: 52px;
   height: 52px;
@@ -3392,11 +3389,7 @@ pre.mermaid .label {
   height: 3px;
 }
 .site-brand-container {
-  background: #fff !important;
-}
-.site-subtitle {
-  color: #555 !important;
-  font-size: 0.9125em !important;
+  background: #3199c4 !important;
 }
 .site-nav-toggle .toggle,
 .site-nav-right .toggle {
