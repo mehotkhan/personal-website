@@ -3391,11 +3391,3 @@ pre.mermaid .label {
 .site-brand-container {
   background: #3199c4 !important;
 }
-.site-nav-toggle .toggle,
-.site-nav-right .toggle {
-  color: #555;
-}
-.site-nav-toggle .toggle .toggle-line,
-.site-nav-right .toggle .toggle-line {
-  background: #555;
-}
