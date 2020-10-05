@@ -55,7 +55,6 @@ menu:
   home: / || fa fa-home
   blog: /blogs/ || fa fa-blog
   web-assistant: /web-assistant/ || fa fa-toolbox
-  cooperation-offer: /cooperation-offer/ || fa fa-coffee
   tags: /tags/ || fa fa-tags
   about: /about/ || fa fa-file-code
   contact: /contact/ || fa fa-id-card

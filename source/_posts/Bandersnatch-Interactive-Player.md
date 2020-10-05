@@ -3,6 +3,7 @@ title: Bandersnatch Interactive Player (based on html5 video player)
 date: 2019-11-01 22:18:09
 tags:
     - opensource
+direction: ltr
 ---
 <div dir="ltr">
 

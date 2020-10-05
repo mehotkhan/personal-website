@@ -1,6 +1,7 @@
 ---
 title:  درباره من
 date: 2019-10-30 08:13:36
+comments: false
 ---
 
 <div dir="ltr">
