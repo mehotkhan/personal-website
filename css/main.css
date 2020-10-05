@@ -3387,3 +3387,8 @@ pre.mermaid .label {
 .site-brand-container {
   background: #3199c4 !important;
 }
+@media (max-width: 567px) {
+  .post-block:first-child {
+    margin-bottom: 18px;
+  }
+}
