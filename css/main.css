@@ -3245,12 +3245,6 @@ html[dir*="rtl"] .footer-inner {
   .site-brand-container {
     box-shadow: none;
   }
-  div.install-trigger {
-    background: none;
-  }
-  div.install-trigger i {
-    color: #555;
-  }
   .menu {
     text-align: left;
   }
