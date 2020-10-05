@@ -147,12 +147,6 @@ html[dir*="rtl"] {
     .site-brand-container{
         box-shadow:none;
     }
-    div.install-trigger{
-        background: none;  
-        i{
-            color:#555555
-        }  
-    }
     .menu  {
             text-align: left;
         }
@@ -304,15 +298,10 @@ pre.mermaid{
 .site-brand-container {
     background: #3199c4 !important;
 }
-// .site-subtitle {
-//     color: #555!important;
-//     font-size: 0.9125em!important;
-// }
+@media (max-width: 567px){
 
-// .site-nav-toggle .toggle, .site-nav-right .toggle{
-//     color: #555
-// }
-// .site-nav-toggle .toggle .toggle-line, .site-nav-right .toggle .toggle-line{
-    
-//     background:  #555
-// }
+    .post-block:first-child {
+       margin-bottom: 18px;
+    }
+
+}
