@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://alizemani.ir/about/</loc>
+    <loc>https://alizemani.ir/contact/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://alizemani.ir/contact/</loc>
+    <loc>https://alizemani.ir/about/</loc>
     
     <lastmod>2020-10-05</lastmod>
     
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>https://alizemani.ir/tags/%D8%B3%D9%84%D8%A7%D9%85-%D8%AF%D9%86%DB%8C%D8%A7/</loc>
+    <loc>https://alizemani.ir/tags/opensource/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://alizemani.ir/tags/opensource/</loc>
+    <loc>https://alizemani.ir/tags/%D8%B3%D9%84%D8%A7%D9%85-%D8%AF%D9%86%DB%8C%D8%A7/</loc>
     <lastmod>2020-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
