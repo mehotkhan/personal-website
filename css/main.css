@@ -3137,14 +3137,15 @@ blockquote p {
 .en-date {
   display: inline-block !important;
 }
+html[dir*="rtl"] .post-toc ol {
+  text-align: right;
+}
 html[dir*="rtl"] .main-menu .menu-item-active::after {
   left: 15px;
   right: auto;
 }
 html[dir*="rtl"] .sidebar-nav {
   padding-right: 0;
-  padding-left: initial;
-  direction: ltr;
 }
 html[dir*="rtl"] .menu .menu-item a,
 html[dir*="rtl"] .menu .menu-item span.exturl {
