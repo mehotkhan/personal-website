@@ -6,7 +6,7 @@ tags:
     - آموزش
     - معماری‌نرم‌افزار
 ---
-![](/assets/images/etools-tuts/website-development.webp)
+![](/assets/images/etools-tuts/web-development.jpg)
 
 
 
