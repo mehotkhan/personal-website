@@ -3137,6 +3137,17 @@ blockquote p {
 .en-date {
   display: inline-block !important;
 }
+html[dir*="rtl"] blockquote {
+  right: auto;
+  left: -30px;
+  width: calc(100% - 60px);
+  border-right: 4px solid #3199c4;
+  margin-bottom: 26px;
+}
+html[dir*="rtl"] blockquote p {
+  font-style: normal;
+  margin: 0;
+}
 html[dir*="rtl"] .post-toc ol {
   text-align: right;
 }
@@ -3252,13 +3263,6 @@ html[dir*="rtl"] .footer-inner {
   html[dir*="rtl"] .menu .menu-item span.exturl,
   html[dir*="rtl"] .menu {
     text-align: right;
-  }
-  img[src*="#main-poster"] {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: auto !important;
-    padding-top: 30px;
   }
   blockquote {
     right: auto;
