@@ -22,7 +22,7 @@ The only thing you need is 5hours video file of `Bandersnatch` episode, Drag & d
 
 ## Screenshot
   * full screen mode 
-  
+
   ![Screenshot](/assets/images/Bandersnatch-Interactive-Player/full-screen.png)
 
 * non full screen mode

@@ -34,6 +34,17 @@ blockquote{
     display: inline-block!important;    
 }
 html[dir*="rtl"] {
+    blockquote {
+        right: auto;
+        left: -30px;
+        width: calc(100% - 60px);
+        border-right: 4px solid #3199c4;
+        margin-bottom: 26px;
+        p{
+            font-style: normal;
+            margin: 0;
+        }
+    }
     .post-toc ol{
         text-align: right;    
     }
@@ -151,23 +162,17 @@ html[dir*="rtl"] {
             text-align: left;
         }
     html[dir*="rtl"] {
-        .menu .menu-item a, .menu .menu-item span.exturl,.menu {
-                text-align: right;
-            }
+    .menu .menu-item a, .menu .menu-item span.exturl,.menu {
+            text-align: right;
+        }
     }
     // main-page
-    img[src*="#main-poster"] {
-        width: 50%;
-        height: auto;
-        display: block;
-        margin: auto!important;
-        padding-top: 30px;
-    }
     blockquote{
         right: auto;
         width: auto;
+    
+        }
     }
-}
 
 .user-section{
     border-top: 1px solid #838383;
