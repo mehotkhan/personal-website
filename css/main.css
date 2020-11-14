@@ -3141,7 +3141,7 @@ html[dir*="rtl"] blockquote {
   right: auto;
   left: -30px;
   width: calc(100% - 60px);
-  border-right: 4px solid #3199c4;
+  border-right: 4px solid #333;
   margin-bottom: 26px;
 }
 html[dir*="rtl"] blockquote p {
@@ -3193,7 +3193,7 @@ html[dir*="rtl"] .sidebar-nav li.sidebar-nav-overview {
 html[dir*="rtl"] .github-corner svg {
   border: 0;
   color: #fff;
-  fill: #3498c3;
+  fill: #333;
   position: absolute;
   left: 0;
   top: 0;
@@ -3245,10 +3245,6 @@ html[dir*="rtl"] .footer-inner {
   display: none;
 }
 @media (max-width: 767px) {
-  .site-brand-container {
-    background: #fff !important;
-    border-top: 3px solid #3199c4 !important;
-  }
   .header-inner {
     margin-bottom: 16px;
     padding: 0 !important;
@@ -3300,13 +3296,13 @@ hr {
   z-index: 999;
 }
 .sidebar-toggle {
-  background: #3498c3;
+  background: #333;
   border-radius: 50%;
   padding: 14px;
 }
 .back-to-top,
 .reading-progress-bar {
-  background: #3498c3;
+  background: #333;
 }
 .sidebar-static {
   text-align: right;
@@ -3318,7 +3314,7 @@ hr {
 }
 .book-mark-link::before,
 .menu-item .fa {
-  color: #3498c3;
+  color: #333;
 }
 pre.mermaid {
   background: none;
@@ -3372,18 +3368,14 @@ pre.mermaid .label {
   visibility: inherit !important;
 }
 .languages i {
-  color: #3498c3;
+  color: #333;
   font-size: 1.1em;
 }
 .languages span {
   margin: 0 !important;
 }
 .headband {
-  background: #3199c4;
   height: 3px;
-}
-.site-brand-container {
-  background: #3199c4 !important;
 }
 @media (max-width: 567px) {
   .post-block:first-child {
