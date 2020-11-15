@@ -3388,6 +3388,7 @@ pre.mermaid .label {
 }
 .fa,
 .far,
-.fas {
+.fas,
+.fab {
   color: #51adcf !important;
 }
