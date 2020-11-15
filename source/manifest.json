@@ -1,6 +1,7 @@
 {
     "name": "علی زِمانی",
-    "start_url": "/",
+    "start_url": "/?source=pwa",
+    "scope": "/",
     "short_name": "علی زِمانی",
     "lang": "fa",
     "description": "برنامه نویس و توسعه دهنده وب آزاد",
@@ -14,7 +15,28 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
-    "theme_color": "#3498c3",
-    "background_color": "#3498c3",
-    "display": "standalone"
+    "theme_color": "#333",
+    "background_color": "#333",
+    "display": "standalone",
+    "shortcuts": [{
+            "name": "بلاگ",
+            "short_name": "بلاگ",
+            "description": "آخرین یادداشت ها",
+            "url": "/blogs?source=pwa",
+            "icons": [{
+                "src": "/assets/images/android-chrome-192x192.png",
+                "sizes": "192x192"
+            }]
+        },
+        {
+            "name": "اطلاعات تماس",
+            "short_name": "تماس",
+            "description": "اطلاعات تماس",
+            "url": "/contact?source=pwa",
+            "icons": [{
+                "src": "/assets/images/android-chrome-192x192.png",
+                "sizes": "192x192"
+            }]
+        }
+    ]
 }

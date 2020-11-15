@@ -34,7 +34,7 @@ pace:
 cache:
   enable: true
 
-minify: true
+minify: false
 
 text_align:
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
@@ -54,7 +54,7 @@ darkmode: false
 menu:
   home: / || fa fa-home
   blog: /blogs/ || fa fa-blog
-  web-assistant: /web-assistant/ || fa fa-toolbox
+  # web-assistant: /web-assistant/ || fa fa-toolbox
   tags: /tags/ || fa fa-tags
   about: /about/ || fa fa-file-code
   contact: /contact/ || fa fa-id-card
@@ -92,7 +92,7 @@ github_banner:
 
 custom_file_path:
     style: source/_data/styles.styl
-    variable: source/_data/variables.styl
+    # variable: source/_data/variables.styl
     # head: source/_data/head.njk
 
 # ============================================================= #
