@@ -136,6 +136,6 @@ User-agent: YoudaoBot
 Disallow:
 # disallow all other bots
 User-agent: *
-Disallow: 
+Disallow: /
 Sitemap: https://www.alizemani.ir/sitemap.xml
  

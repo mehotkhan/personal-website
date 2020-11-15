@@ -103,9 +103,19 @@
       </tags>
   </entry>
   <entry>
+    <title>خوش آمدید</title>
+    <url>/blogs/intro/</url>
+    <content><![CDATA[<h1 id="خوش-آمدید"><a href="#خوش-آمدید" class="headerlink" title="خوش آمدید"></a>خوش آمدید</h1><p>سلام</p>
+<p>اینجا وبسایت شخصی علی زمانی ،برنامه نویس و توسعه دهنده وب است .در اینجا تلاش میکنم با توجه به محدودیت زمان ،‌مطالب و آموزش هایی حول دنیای فناری اطلاعات بنویسم .</p>
+<p>همچنین من به صورت پاره وقت ،خدمات مشاوره،پشتیبانی،بهینه سازی وبسایت های آنلاین را انجام میدهم</p>
+<p>برای اشنایی برا نحوه ی این خدمات به صفحه <a href="/web-assistant/">تعمیر و بهینه سازی وبسایت</a> بروید .</p>
+<p>اطلاعات تماس در صفحه <a href="/contact/">تماس با من</a> قرار داده شده است . </p>
+]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/manifest.json</url>
-    <content><![CDATA[{"name":"علی زِمانی","start_url":"/?source=pwa","scope":"/","short_name":"علی زِمانی","lang":"fa","description":"برنامه نویس و توسعه دهنده وب آزاد","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/assets/images/android-chrome-512x512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"theme_color":"#333","background_color":"#333","display":"standalone","shortcuts":[{"name":"بلاگ","short_name":"بلاگ","description":"آخرین یادداشت ها","url":"/blogs?source=pwa","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192"}]},{"name":"اطلاعات تماس","short_name":"تماس","description":"اطلاعات تماس","url":"/contact?source=pwa","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192"}]}]}]]></content>
+    <content><![CDATA[{"name":"علی زِمانی","start_url":"/","short_name":"علی زِمانی","lang":"fa","description":"برنامه نویس و توسعه دهنده وب آزاد","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/assets/images/android-chrome-512x512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"theme_color":"#3498c3","background_color":"#3498c3","display":"standalone"}]]></content>
   </entry>
   <entry>
     <title></title>
