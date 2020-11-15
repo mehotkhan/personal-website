@@ -77,8 +77,8 @@ get_font_family(config) {
 // Font families.
 $font-family-chinese      = "PingFang SC", "Microsoft YaHei";
 
-$font-family-base         = $font-family-chinese, sans-serif;
-$font-family-base         = get_font_family('global'), $font-family-chinese, sans-serif if get_font_family('global');
+$font-family-base         =  sans-serif;
+$font-family-base         = get_font_family('global'),  sans-serif if get_font_family('global');
 
 $font-family-logo         = $font-family-base;
 $font-family-logo         = get_font_family('title'), $font-family-base if get_font_family('title');

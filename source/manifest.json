@@ -15,8 +15,8 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
-    "theme_color": "#333",
-    "background_color": "#333",
+    "theme_color": "#51adcf",
+    "background_color": "#51adcf",
     "display": "standalone",
     "shortcuts": [{
             "name": "بلاگ",

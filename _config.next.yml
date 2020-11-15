@@ -92,7 +92,7 @@ github_banner:
 
 custom_file_path:
     style: source/_data/styles.styl
-    # variable: source/_data/variables.styl
+    variable: source/_data/variables.styl
     # head: source/_data/head.njk
 
 # ============================================================= #
