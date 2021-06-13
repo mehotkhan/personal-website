@@ -49,11 +49,10 @@
   <entry>
     <title>آموزش طراحی و ساخت ابزار های آنلاین - مقدمه</title>
     <url>/blogs/etools-tuts-preface/</url>
-    <content><![CDATA[<p><img src="/assets/images/etools-tuts/web-development.jpg"></p>
-<p>امروزه اینترنت و ابزارهای آنلاین، تمام زندگی ما را احاطه کرده‌اند. از کوچکترین این ابزارها مثل ساعت‌های هوشمند گرفته تا پیچیده‌ترین آنها همچون غول‌های بزرگ فناوری همچون گوگل و اپل.</p>
+    <content><![CDATA[<p>امروزه اینترنت و ابزارهای آنلاین، تمام زندگی ما را احاطه کرده‌اند. از کوچکترین این ابزارها مثل ساعت‌های هوشمند گرفته تا پیچیده‌ترین آنها همچون غول‌های بزرگ فناوری همچون گوگل و اپل.</p>
 <p>از وب‌سایت‌های کوچک شخصی گرفته تا فروشگاه‌های بزرگ چند منظوره آنلاین همچون آمازون، همه و همه ابزارهایی هستند که برای رفع مشکلی خاص طراحی، ساخته و توسعه داده شده‌اند تا بتوانند بخشی از نیازمندی‌های روزمره انسان‌ها را به کمک شبکهٔ بزرگ و پیچیدهٔ اینترنت، با بیشترین سرعت و دقت ممکن رفع کنند.</p>
-<a id="more"></a>
-<p>سوالی که اغلب برای افرادی که تلاش می‌کنند به کمک این شبکه بزرگ اطلاعاتی، بخشی از مشکلات خود را حل کنند این است که:</p>
+<span id="more"></span>
+<p><img src="/assets/images/etools-tuts/web-development.jpg"><br>سوالی که اغلب برای افرادی که تلاش می‌کنند به کمک این شبکه بزرگ اطلاعاتی، بخشی از مشکلات خود را حل کنند این است که:</p>
 <p>چگونه باید از ظرفیت‌های این شبکه استفاده کنیم؟</p>
 <p>سوالی که اغلب برای افرادی که تلاش می‌کنند به کمک این شبکه بزرگ اطلاعاتی، بخشی از مشکلات خود را حل کنند این است که:</p>
 <p>چگونه باید از ظرفیت‌های این شبکه استفاده کنیم؟</p>
@@ -103,9 +102,15 @@
       </tags>
   </entry>
   <entry>
+    <title>پین</title>
+    <url>/blogs/intro/</url>
+    <content><![CDATA[<p>پاره های توضیحات در مورد اینجا</p>
+]]></content>
+  </entry>
+  <entry>
     <title></title>
     <url>/manifest.json</url>
-    <content><![CDATA[{"name":"علی زِمانی","start_url":"/?source=pwa","scope":"/","short_name":"علی زِمانی","lang":"fa","description":"برنامه نویس و توسعه دهنده وب آزاد","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/assets/images/android-chrome-512x512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"theme_color":"#51adcf","background_color":"#51adcf","display":"standalone","shortcuts":[{"name":"بلاگ","short_name":"بلاگ","description":"آخرین یادداشت ها","url":"/blogs?source=pwa","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192"}]},{"name":"اطلاعات تماس","short_name":"تماس","description":"اطلاعات تماس","url":"/contact?source=pwa","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192"}]}]}]]></content>
+    <content><![CDATA[{"name":"علی زِمانی","start_url":"/?source=pwa","scope":"/","short_name":"علی زِمانی","lang":"fa","description":"برنامه نویس و توسعه دهنده وب آزاد","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/assets/images/android-chrome-512x512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}],"theme_color":"#555","background_color":"#555","display":"standalone","shortcuts":[{"name":"بلاگ","short_name":"بلاگ","description":"آخرین یادداشت ها","url":"/blogs?source=pwa","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192"}]},{"name":"اطلاعات تماس","short_name":"تماس","description":"اطلاعات تماس","url":"/contact?source=pwa","icons":[{"src":"/assets/images/android-chrome-192x192.png","sizes":"192x192"}]}]}]]></content>
   </entry>
   <entry>
     <title></title>
@@ -9389,12 +9394,6 @@ this.workbox.core = (function (exports) {
 
 }({}));
 //# sourceMappingURL=workbox-core.dev.js.map
-]]></content>
-  </entry>
-  <entry>
-    <title>صفحه نخست</title>
-    <url>/index.html</url>
-    <content><![CDATA[<h1 id="مقدمه"><a href="#مقدمه" class="headerlink" title="مقدمه"></a>مقدمه</h1><p>پاره ای توضیحات در مورد اینجا</p>
 ]]></content>
   </entry>
 </search>
