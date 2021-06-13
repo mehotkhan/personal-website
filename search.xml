@@ -9391,4 +9391,10 @@ this.workbox.core = (function (exports) {
 //# sourceMappingURL=workbox-core.dev.js.map
 ]]></content>
   </entry>
+  <entry>
+    <title>صفحه نخست</title>
+    <url>/index.html</url>
+    <content><![CDATA[<h1 id="مقدمه"><a href="#مقدمه" class="headerlink" title="مقدمه"></a>مقدمه</h1><p>پاره ای توضیحات در مورد اینجا</p>
+]]></content>
+  </entry>
 </search>
