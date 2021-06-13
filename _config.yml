@@ -144,8 +144,3 @@ symbols_count_time:
   total_time: false
   total_symbols: false
 
-index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
-  pagination_dir: page
